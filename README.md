@@ -13,7 +13,7 @@ docker run -d -it --name <container-name> --network host -v /<path to>/kibana.ym
 
 ## Traffic Encryption Between Browser And Kibana
 You can either use your organization's cert or you can generate a self-signed one using elasticsearch-certutil.
-To generate self-signed cert, go to you elasticsearch container and run following commands.
+To generate self-signed cert, go to your elasticsearch container and run following commands.
 ```
 cd /usr/share/elasticsearch/
 bin/elasticsearch-certutil ca --pem
